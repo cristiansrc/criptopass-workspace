@@ -1,0 +1,35 @@
+# Solution Workspace - CriptoPass
+
+# Ignorar subrepositorios (cada uno es un repo Git independiente)
+projects/*
+
+# Graphify outputs (regenerados por comando)
+graphify-out/
+
+# IDE y sistema
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Terraform (si se ejecuta localmente)
+**/.terraform/
+**/terraform.tfstate*
+**/terraform.tfvars
+**/.terraform.lock.hcl
+
+# Node (si se ejecutan scripts locales)
+node_modules/
+.next/
+
+# Basura macOS de plantillas
+**/__MACOSX/
+**/._*
+
+# Builds
+build/
+out/
+target/
+*.class
+*.log
